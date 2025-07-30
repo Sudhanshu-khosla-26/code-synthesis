@@ -398,7 +398,7 @@ export default function TeamSection({
           socials: [
             {
               platform: "linkedin",
-              url: "www.linkedin.com/in/dhruv-oberoi-81870a25b",
+              url: "https://www.linkedin.com/in/dhruv-oberoi-81870a25b/",
             },
             {
               platform: "instagram",
@@ -524,7 +524,7 @@ export default function TeamSection({
         //       platform: "github",
         //       url: "https://github.com/Vritti1215",
         //     },
-          // ],
+        // ],
         // },
         {
           name: "HARSH YADAV",
@@ -671,7 +671,7 @@ export default function TeamSection({
           socials: [
             {
               platform: "linkedin",
-              url: "www.linkedin.com/in/saksham-didi-23b2b2239",
+              url: "https://www.linkedin.com/in/saksham-didi-23b2b2239",
             },
             {
               platform: "github",
@@ -1284,11 +1284,11 @@ export default function TeamSection({
           socials: [
             {
               platform: "linkedin",
-              url: "www.linkedin.com/in/absk-kr",
+              url: "https://www.linkedin.com/in/absk-kr",
             },
             {
               platform: "instagram",
-              url: "www.instagram.com/abhishekkr3104",
+              url: "https://www.instagram.com/abhishekkr3104",
             },
             {
               platform: "github",

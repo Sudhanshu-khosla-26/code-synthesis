@@ -281,7 +281,13 @@ export default function TracksSection({ isDarkMode }: TracksSectionProps) {
                     </div>
                   </motion.div>
                   <div className="flex-1 min-w-0">
-                    <h3 className="text-lg font-black mb-2 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                    <h3
+                      className={`text-lg font-black mb-2 bg-gradient-to-r ${
+                        isDarkMode
+                          ? "from-white to-gray-300"
+                          : "from-gray-800 to-gray-800"
+                      } bg-clip-text text-transparent`}
+                    >
                       {track.title}
                     </h3>
                     <p

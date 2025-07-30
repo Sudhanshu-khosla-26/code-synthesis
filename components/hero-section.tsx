@@ -373,7 +373,13 @@ export default function HeroSection({ isDarkMode }: HeroSectionProps) {
                     </div>
                   </motion.div>
                   <div className="text-left">
-                    <div className="text-2xl font-black mb-1 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                    <div
+                      className={`text-2xl font-black mb-1 bg-gradient-to-r ${
+                        isDarkMode
+                          ? "from-white to-gray-300"
+                          : "from-gray-800 to-gray-800"
+                      }  bg-clip-text text-transparent`}
+                    >
                       {card.value}
                     </div>
                     <div

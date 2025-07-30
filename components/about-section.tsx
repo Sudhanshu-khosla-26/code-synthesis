@@ -219,7 +219,13 @@ export default function AboutSection({ isDarkMode }: AboutSectionProps) {
                       <card.icon className="w-7 h-7 text-white" />
                     </div>
                   </motion.div>
-                  <h3 className="text-xl font-black mb-4 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                  <h3
+                    className={`text-xl font-black mb-4 bg-gradient-to-r   ${
+                      isDarkMode
+                        ? "from-white to-gray-300"
+                        : "from-gray-800 to-gray-800"
+                    } bg-clip-text text-transparent`}
+                  >
                     {card.title}
                   </h3>
                   <p
@@ -252,7 +258,13 @@ export default function AboutSection({ isDarkMode }: AboutSectionProps) {
             <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 via-cyan-500/5 to-green-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <div className="relative z-10">
               <div className="flex items-center justify-center mb-6">
-                <h3 className="text-2xl md:text-3xl font-black bg-gradient-to-r text-white bg-clip-text text-transparent">
+                <h3
+                  className={`text-2xl md:text-3xl font-black  ${
+                    isDarkMode
+                      ? "bg-gradient-to-r text-white text-transparent "
+                      : "text-gray-800"
+                  } bg-clip-text `}
+                >
                   OUR MISSION
                 </h3>
               </div>
